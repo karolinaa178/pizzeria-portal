@@ -8,7 +8,7 @@ const Waiter = props => {
     <div className={classes.component}>
       <h2>Waiter view</h2>
       <Link to={process.env.PUBLIC_URL + `/waiter/order/new`}>New Order</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/order/some_order_id`}>Edit any order</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/order/:id`}>Edit any order</Link>
     </div>
   );
 };
